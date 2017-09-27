@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html class='translated-ltr'><head>
+  <head>
+    <meta charset="utf-8">
+    <title>aart</title>
+    <link href='/stylesheets/style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster|Lusitana" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <% include partials/navbar %>
+    <div class="wrapper">
+      <%- body %>
+      <div id='blurSearch'>
+      </div>
+      <div id='mainSearch'>
+        <% include main/search %>
+      </div>
+    </div>
+    <script src='/javascripts/main.js'></script>
+  </body>
+</html>

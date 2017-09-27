@@ -1,0 +1,11 @@
+<div class='slideshow'>
+  <div class='mover' id='slideshow'>
+    <% works.artObjects.forEach(function(work) { %>
+      <a class='item' href='<%= work.links.web %>'>
+        <div>
+            <img src='<%= work.webImage.url %>' alt='<%= work.title %>'/>
+        </div>
+      </a>
+    <% }); %>
+  </div>
+</div>
